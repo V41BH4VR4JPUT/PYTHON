@@ -1,4 +1,4 @@
 # PYTHON
-python repository 
+Python repository 
 <br>
-practice codes and Some exercises and small projects.
+Practice codes and Some exercises and small projects.
