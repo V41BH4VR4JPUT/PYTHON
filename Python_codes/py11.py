@@ -16,3 +16,5 @@ match x:
     # so it is basically just an else:
     case _:
         print(x)
+
+print("End of program")        
