@@ -9,8 +9,6 @@ print(type(c))
 d = 5.43
 print(type(d))
 
-
-
 e = c + d
 print(e)
 print(type(e))
