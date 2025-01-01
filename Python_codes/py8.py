@@ -1,5 +1,4 @@
 # string Slicing
-
 name = "vaibhav"
 print(name[0:3]) # string slicing example
 print(name[0:6:2])
