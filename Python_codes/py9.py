@@ -1,5 +1,4 @@
 # String methods
-
 str1 = "AbcDEfghIJ"
 print(str1.upper())
 
