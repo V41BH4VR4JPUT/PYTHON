@@ -1,5 +1,9 @@
-b = "vaibhav"
-vaibhav = 28
+"""
+Data types and Variables
+"""
+
+b = "vaibhav" #string
+vaibhav = 28 #now integer
 print(vaibhav)
 
 a = 30
@@ -8,7 +12,7 @@ c = 28
 print(a + c)
 print(type(a),type(b),type(c))
 
-d = complex(28,30)
+d = complex(28,30) #complex Number
 print(d,type(d))
 
 list = [1 , 2.4 , "vaibhav" , ["me" , 21 ]]
