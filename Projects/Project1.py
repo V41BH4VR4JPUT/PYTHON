@@ -12,7 +12,6 @@ Creating a Simple Project to understand the basics of Python Programming Languag
 Creating a Greeting card Generator using above concepts
 
 """
-
 # Greeting Card Generator
 print("Welcome to the Greeting Card Generator!\n")
 print("Let's create a personalized greeting for your loved ones. 🎉\n")
