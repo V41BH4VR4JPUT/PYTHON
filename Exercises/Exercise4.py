@@ -1,4 +1,5 @@
 # using match case statement
+
 Day = input("Enter the day: ").strip().capitalize()
 match Day :
     case "Monday":
