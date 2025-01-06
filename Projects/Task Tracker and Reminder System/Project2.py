@@ -8,7 +8,7 @@ def add_task(task_list):
 
 def view_tasks(task_list):
     if not task_list:
-        print("No tasks found.")
+        print("No tasks found.\n")
     else:
         print("\nTasks:")
         for i in range(len(task_list)):
@@ -20,14 +20,14 @@ def mark_as_completed(task_list):
     view_tasks(task_list)
     if task_list:
         try :
-            task_index = int(input("Enter the task number to mark as completed: ")) - 1
+            task_index = int(input("\nEnter the task number to mark as completed: ")) - 1
             if 0 <= task_index < len(task_list):
                 task_list[task_index]["Status of Task"] = "Completed"
-                print("Task marked as completed.")
+                print("Task marked as completed.\n")
             else:
-                print("Invalid task number.")
+                print("Invalid task number.\n")
         except ValueError:
-            print("Invalid input. Please enter a valid task number.")
+            print("Invalid input. Please enter a valid task number.\n")
 
 def delete_task(task_list):
     view_tasks(task_list)
@@ -42,7 +42,7 @@ def delete_task(task_list):
         except ValueError:
             print("Invalid input. Please enter a valid task number.")
 
-            
+
 def mainMenu():
     print("Welcome to Task Tracker and Reminder System".center(80, "-"))
     print("Task Tracker Menu:")
