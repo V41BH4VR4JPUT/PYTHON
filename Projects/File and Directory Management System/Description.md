@@ -1,7 +1,6 @@
 # File and Directory Management System
 
 This repository contains a **File and Directory Management System** implemented in Python. The project leverages the `os` module to perform various file and directory operations, making it a practical tool for system administrators and Python enthusiasts.
-
 ---
 
 ## Key Features
