@@ -1,4 +1,4 @@
-# Exercise -3 
+# Exercise 3
 """
  KBC game
   * use lists for questions and answers
