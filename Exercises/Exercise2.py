@@ -1,5 +1,6 @@
 # Exercise2  
-""" Time module in python is built in module 
+""" 
+Time module in python is built in module 
     strftime() function is used to print the time in string format.
     && = and
     || = or
