@@ -1,3 +1,2 @@
-cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
-# cities.clear()
-# print(cities)
+b = person("Totoo" , 23 , "student")
+b.info()
