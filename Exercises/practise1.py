@@ -27,3 +27,15 @@ print("type of value obtained of a / b", type(a / b))
 print("type of value obtained of a // b", type(a // b))
 print("type of value obtained of a % b", type(a % b))
 print("type of value obtained of a**b", type(a ** b),"\n")
+
+"""
+if class contains two constructors then it will execute the last one
+"""
+class cons:
+    def __init__(self):
+        print("I am a constructor")
+
+    def __init__(self):
+        print("Hello , I am a constructor")
+
+Obj = cons()
