@@ -1,3 +1,4 @@
+
 # Raising Custom Errors
 
 user = (input("ENTER THE NUMBER BETWEEN 5 AND 9  : "))
