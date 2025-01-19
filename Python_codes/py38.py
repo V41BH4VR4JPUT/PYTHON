@@ -1,7 +1,6 @@
 # map , filter and reduce functions
 
 nums = [1 , 3 , 4 , 6 , 8 ]
-
 #map
 sq = map(lambda x : x*x , nums)
 print(list(sq))
