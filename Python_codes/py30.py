@@ -13,7 +13,6 @@ try:
      #exception
 except:
      #Soloution of generated exception
-
 '''
 # Example 1
 a = input("Enter the number: ")
