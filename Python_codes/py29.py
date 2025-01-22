@@ -7,7 +7,6 @@ for counter in sequence:
     #Statements inside for loop block
 else:
     #Statements inside else block
-
 '''
 # # Example:
 for x in range(5):
