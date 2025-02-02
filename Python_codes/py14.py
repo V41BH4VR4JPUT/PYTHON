@@ -9,14 +9,13 @@ for i in range(1,101,1):
 print("Thank you\n")
 
 #Continue Statement
-
 for i in [2,3,4,6,8,0]:
     if (i%2!=0):
         continue
     print(i)
 print("\n")
-# Emulation of do-while loop in python
 
+# Emulation of do-while loop in python
 while True:
   number = int(input("Enter a positive number: "))
   print(number)
