@@ -2,8 +2,6 @@
 
 # def average(a, b, c=1):
 #   print("The average is ", (a + b + c) / 2)
-
-
 def average(*numbers):
   # print(type(numbers))
   sum = 0
