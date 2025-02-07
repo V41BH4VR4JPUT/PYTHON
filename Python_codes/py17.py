@@ -1,4 +1,5 @@
 # Lists in Python
+
 #exapmle 1
 lst1 = [1,2,2,3,5,4,6]
 lst2 = ["Red", "Green", "Blue"]
