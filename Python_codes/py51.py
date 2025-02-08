@@ -1,4 +1,5 @@
 # Super keyword in Python
+
 class parent:
     def Parent_method(self):
         print("This is parent class method")
