@@ -1,9 +1,11 @@
 # Creating command line utilities with argparse in Python
 
 import argparse
+import requests
 
 def download_file(url , local_filename):
-    local_filename = url.split('/')[-1]
+    if local_filename is None:
+      local_filename = url.split('/')[-1]
     # NOTE the stream=True parameter below
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
@@ -17,7 +19,8 @@ def download_file(url , local_filename):
 parser = argparse.ArgumentParser()
 
 parser.add_argument("url" , help = "Enter the URL of the website")
-parser.add_argument("output" , help = "Enter the name of the output file")
+# parser.add_argument("output" , help = "Enter the name of the file")
+parser.add_argument("-o" , "--output" , help = "Enter the name of the file" , default =None)
 
 args = parser.parse_args()
 
