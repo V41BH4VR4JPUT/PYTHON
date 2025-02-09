@@ -1,5 +1,4 @@
 # List Methods
-
 # Sorting the List
 # ascending order
 colors = ["voilet", "indigo", "blue", "green"]
