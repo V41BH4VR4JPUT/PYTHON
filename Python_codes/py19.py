@@ -1,5 +1,4 @@
 # Tuples in Python
-
 #example 1
 tuple1 = (1,2,2,3,5,4,6)
 tuple2 = ("Red", "Green", "Blue")
