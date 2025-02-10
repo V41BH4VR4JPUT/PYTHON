@@ -1,7 +1,6 @@
 #Operations on Tuples
 
 #Tuples are immutable, hence if you want to add, remove or change tuple items, then first you must convert the tuple to a list. Then perform operation on that list and convert it back to tuple.
-
 #Converting tuple to list
 
 countries = ("Spain", "Italy", "India", "England", "Germany")
