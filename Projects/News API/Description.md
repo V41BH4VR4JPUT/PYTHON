@@ -59,15 +59,5 @@ if __name__ == "__main__":
     get_news("AI")
 ```
 
-## API Limitations
-- The free plan allows **100 requests per day**.
-- The `top-headlines` endpoint may not return results for every topic.
 
-## Future Enhancements
-- Allow users to input a keyword dynamically.
-- Add support for country-based filtering.
-- Integrate a GUI or web interface.
-
-## License
-This project is open-source and available under the **MIT License**.
 
