@@ -1,5 +1,4 @@
 # f-strings in Python
-
 ''' String Formatting in Python'''
 
 txt = "For only {price:.2f} dollars!"
