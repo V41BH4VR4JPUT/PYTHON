@@ -19,7 +19,6 @@ def fibonacci(n):
         return(fibonacci(n-1) + fibonacci(n-2))
 
 nterms = 10
-
 if nterms <= 0:
     print("Please enter a positive integer")
 else:
