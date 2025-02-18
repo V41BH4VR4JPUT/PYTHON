@@ -1,6 +1,3 @@
-
-# v41bh4vr4jput-python
-
 This repository contains various Python scripts, exercises, projects, and learning modules. Whether you're exploring Python, practicing coding exercises, or looking for small project implementations, this repository has something for you.
 
 Repository covers a wide range of Python topics, including:
