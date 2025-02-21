@@ -1,4 +1,5 @@
 # Set Joining Methods
+
 # The union() and update() methods prints all items that are present in the two sets. The union() method returns a new set whereas update() method adds item into the existing set from another set.
 
 # Example:
